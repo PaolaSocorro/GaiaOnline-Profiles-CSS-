@@ -1,0 +1,200 @@
+html,body{
+ background:url(http://i.imgur.com/o1Q6qco.png)no-repeat top center fixed; 
+background-color:rgb(2,19,32);
+}
+
+@font-face {
+  font-family: 'Modern Sans Serif 7';
+  src: url('http://www.fontsaddict.com/fontface/modern-sans-serif-7.ttf');
+}
+				
+
+#header_left img{
+width:0px; 
+height:0px;
+padding:0px 47px 23px 15px;
+background:url('http://i.imgur.com/ShxDdEH.png')bottom no-repeat;
+}
+
+
+#header_left:after{
+content: '  CODING || ARTWORK BY: BLEUROGUE' ;
+font-size: 12px;
+color:rgb(72,201,243);
+font-family: 'Modern Sans Serif 7';
+}
+
+#gaia_header, #gaia_header ul{
+background: transparent !important;
+color: transparent !important;
+}
+
+#gaia_header a{
+background: rgba(58,60,107, .6) !important;
+color:rgb(72,201,243) !important;
+font-family: 'Modern Sans Serif 7';
+font-size: 15px;
+text-transform:uppercase;
+text-decoration: none;
+font-weight:normal;
+padding: 10px 15px 10px 15px;
+border-radius: 10px 0px 10px 0px;
+transition: 0.5s;
+}
+#gaia_header a:hover{
+padding: 25px 15px 25px 15px;
+}
+#columns, #column_1, #column_2, #column_3{overflow:visible;}
+
+#columns{
+height: 500px !important;
+width: 500px;
+position: relative;
+top:20px;
+    
+}
+
+.panel h2{
+background:rgba(17,28,47, .6);  
+border-radius:5px;
+font-family: 'Modern Sans Serif 7';
+font-size: 12px;
+font-weight:normal;
+color:rgb(72,201,243);
+z-index: 50;
+text-align: center;
+position: fixed;
+width: 100px;
+left: 0px;
+z-index: 50;
+}
+.panel h2:hover{ background:rgba(17,28,47, .6);
+padding: 10px;
+transition: .5s;
+}
+
+/*BOTTOM TABS NAVIGATION*/
+#id_equipment h2{left: 360px; bottom: 0px;}
+#id_store h2{left: 500px; bottom: 0px;; }/*Its really the about panel*/
+#id_about h2{left: 640px; bottom: 0px; }/*contact section*/
+#id_friends h2{left: 780px; bottom: 0px;}
+#id_comments h2{left: 920px; bottom: 0px;}
+#id_wishlist h2{left: 1060px; bottom: 0px;}
+#id_details h2{left: 0px; bottom: 0px; display: none;}
+.media_panel h2{left: 0px; bottom:50px;display: none;}
+#id_contact h2{left: 0px; bottom: 0px;display: none;}
+#id_custom_29765 h2{left: 0px; bottom: 100px;display: none;}
+
+
+.panel{
+background:rgba(58,60,107, .4);
+border-radius:5px;
+font-family: 'Modern Sans Serif 7';
+font-size: 14px;
+font-weight:normal;
+color: #FFF ;
+height: 400px !important;
+width: 700px;
+overflow: hidden;
+position: absolute;
+transition: 1s;
+top: -500px;
+left:400px;
+
+}
+
+.panel a{color: rgb(72,201,243) !important }
+
+
+/* PANELSSSSS*/
+
+#id_details{
+left: 120px !important;
+top: 150px !important;
+width: 200px;
+height: 400px !important;
+padding-bottom: 0px;
+color:rgb(72,201,243);
+font-weight: normal;
+    
+}
+#id_details img:hover{
+opacity: 1; 
+padding-top: -10px;
+}
+#id_details img{
+opacity: .5;
+transition: .5s all;   
+}
+#id_custom_29765{
+background: transparent;
+left: 140px !important;
+top: 50px !important;
+width: 200px;
+height: 100px !important;  
+padding-bottom: 0px;
+opacity: .5;
+}
+#id_custom_29765:hover{opacity: 1;}
+
+.media_panel{
+background: transparent !important;
+left: 120px !important;
+top: 580px !important;
+width: 230px ;
+height: 50px !important;
+padding:0px;
+}
+.media_panel object{
+opacity: .6;
+height: 14px;
+width: 230px;
+padding: 0px;
+}
+#id_equipment { }
+#id_comments {}
+#id_contact {
+text-align: center; 
+font-size: 14px;
+
+}
+#id_wishlist,#id_equipment {
+text-align: center;
+}
+#id_wishlist .item,#id_equipment .item {
+float: none;
+display: inline;
+}
+
+/*AVATAR DROP DOWN MENU*/
+
+.forum_userstatus,#avatar_menu ,#id_details .forum_userstatus .online,#id_details p{
+font-family: 'Modern Sans Serif 7';
+font-size: 12px;
+border: none;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+.forum_userstatus,#avatar_menu ,#id_details .forum_userstatus .online{ background:rgba(58,60,107, 1);  }
+
+#avatar_menu a,#avatar_menu li.menu_seperator { color:rgb(72,201,243); background-color: transparent;}
+
+#id_details .forum_userstatus .online {color: #FFF;}
+#id_details .forum_userstatus .offline {color: #a4a4a4;}
+#id_details .forum_userstatus .pushBox{ 
+background: url(http://i.imgur.com/XsvJ3uC.png) no-repeat center center;}
+
+
+
+/*PANEL ANIMATION*/
+
+.panel:hover{
+top:200px;
+overflow: auto;
+padding-bottom: 90px;
+}
+.panel a:hover{
+color: #000;
+text-decoration: none;
+    
+}
