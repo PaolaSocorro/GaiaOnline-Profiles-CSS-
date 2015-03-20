@@ -7,7 +7,7 @@ CSS Profiles for GaiaOnline
 - Full Width Background Image
 - Tabbed Panel Headers
 - Hidden/Animated Slide In Panels
-- Animated Header Bar
+- Animated/Split Header Bar
 - 1 FontAddict Font
 - Panels (About, Equipped,Store,Friends,Comments,Wishlist,Detail,Media,Custom)
 - Custom Artwork/Icons
